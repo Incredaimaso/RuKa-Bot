@@ -33,4 +33,4 @@ class Config:
     SUPPORT_CHAT_ID = int(os.getenv("SUPPORT_CHAT_ID", -1002023828951))
     
     # Additional API integrations
-    MEOWCORE_TOKEN = os.getenv("MEOWCORE_TOKEN", "69696969-MeowMeow")
+    MEOWCORE_TOKEN = os.getenv("MEOWCORE_TOKEN", "")
