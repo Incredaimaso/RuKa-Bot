@@ -21,16 +21,16 @@ class Config:
     DATABASE_URL = os.getenv("DATABASE_URL", "https://blue-api.vercel.app/database?client=ishikki@xyz242.gramdb")
 
     # Logging and Monitoring
-    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1002023828951"))  # Example: -1001234567890 (Private Channel ID)
-    ERROR_LOG_CHANNEL = int(os.getenv("ERROR_LOG_CHANNEL", -1001552477173))
+    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1002432275758"))  # Example: -1001234567890 (Private Channel ID)
+    ERROR_LOG_CHANNEL = int(os.getenv("ERROR_LOG_CHANNEL", -1002432275758))
    
     # Access Control
-    DEV_USERS = list(map(int, os.getenv("DEV_USERS", "5030730429").split(',')))
-    OWNER_ID = int(os.getenv("OWNER_ID", 5030730429))
+    DEV_USERS = list(map(int, os.getenv("DEV_USERS", "7950514048").split(',')))
+    OWNER_ID = int(os.getenv("OWNER_ID", 7950514048))
 
     # Optional Extras
-    SUPPORT_CHAT = os.getenv("SUPPORT_CHAT", "BotsLabXd")  # Without '@'
-    SUPPORT_CHAT_ID = int(os.getenv("SUPPORT_CHAT_ID", -1001703076744))
+    SUPPORT_CHAT = os.getenv("SUPPORT_CHAT", "AnimeFantasyG")  # Without '@'
+    SUPPORT_CHAT_ID = int(os.getenv("SUPPORT_CHAT_ID", -1002023828951))
     
     # Additional API integrations
     MEOWCORE_TOKEN = os.getenv("MEOWCORE_TOKEN", "69696969-MeowMeow")
