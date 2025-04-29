@@ -12,16 +12,16 @@ def get_user_list(key):
 
 class Config:
     # Basic Bot Configuration
-    TOKEN = os.getenv("TOKEN", "6208314828:AAFbTH1SjzlVrnNA6XlAeH9ehqTewiH_nNM")
-    API_ID = int(os.getenv("API_ID", 18579066))
-    API_HASH = os.getenv("API_HASH", "b6922d525d9c218cc237aa8f6e31e9a6")
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "RukaProBot")
+    TOKEN = os.getenv("TOKEN", "7942335745:AAGFVnS-sEK-y1ZSL1Bsk8CtqTH4Pp7mb_U")
+    API_ID = int(os.getenv("API_ID", 22403100))
+    API_HASH = os.getenv("API_HASH", "ccbc3f662735abfa604ef6309ba76e67")
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "KatsuOneBot")
 
     # Database Configuration
     DATABASE_URL = os.getenv("DATABASE_URL", "https://blue-api.vercel.app/database?client=ishikki@xyz242.gramdb")
 
     # Logging and Monitoring
-    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001631997698"))  # Example: -1001234567890 (Private Channel ID)
+    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1002023828951"))  # Example: -1001234567890 (Private Channel ID)
     ERROR_LOG_CHANNEL = int(os.getenv("ERROR_LOG_CHANNEL", -1001552477173))
    
     # Access Control
