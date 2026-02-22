@@ -2,4 +2,4 @@ kurigram
 asyncio
 requests
 uvloop
-tgcrypto
+pytgcrypto
